@@ -1476,7 +1476,7 @@ body.catalogue .edito.mod-catal .inside {padding: 0 0 30px 0;}
 .mod-catal .catal-ex-item-title a:hover,
 .mod-catal .catal-prd-item-title a:focus,
 .mod-catal .catal-prd-item-title a:hover { color : #a02681; text-decoration : underline; }
-.is-premium .catal-ex-item-title a {color : #a02681!important; }
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-title a {color : #f7786b!important; font-weight: 500;}
 .is-premium .catal-ex-item-title {font-size: 25px!important; }
 .mod-catal .catal-ex-item-img,
 .mod-catal .catal-prd-item-img { min-height : 120px; width : 120px; }
