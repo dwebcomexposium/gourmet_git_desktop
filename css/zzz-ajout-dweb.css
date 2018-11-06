@@ -77,7 +77,7 @@ div#cxpmClientAccountWidget .logged span#widgetFirstnameText {
     margin-right:10px;
 }
 
-.cap-icon-shopping_basket:before {
+#cxpmClientAccountWidget .widget-my-selection .cap-icon-shopping_basket:before {
     content: ""!important;
     background-image: url(/theme/gourmet_git_desktop/img/icons/icon-bagcompte-blanc.svg);
     background-repeat: no-repeat;
