@@ -27,14 +27,6 @@ div#cxpmClientAccountWidget .not-logged a, div#cxpmClientAccountWidget .logged a
     color: rgb(255,255,255,0.7);
 }
 
-.openCapMobile .openCapTrigger i.cap-icon-user-circle-o {
-    padding-right: 7px;
-    display: inline-block;
-    padding-top: 0px;
-    margin-top: 0px;
-    float: left;
-}
-
 div#cxpmClientAccountWidget .logged span#widgetFirstname {
     font-size: 13px;
     color:#ffffff;
@@ -104,4 +96,33 @@ div#cxpmClientAccountWidget .logged span#widgetFirstnameText {
     margin-top: -5px;
     display: block;
     margin-top: -9px;
+}
+
+header.site-banner #cxpmClientAccountWidget i.cap-icon-user-circle-o{
+	vertical-align: middle;
+	display: inline-block;
+	background-image: url(/theme/gourmet_git_desktop/img/icons/icon-usercompte-blanc.svg);
+	background-repeat: no-repeat;
+	background-size: 15px;
+	width: 17px;
+	height: 17px;
+	margin-right:8px;
+	-webkit-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+	padding-right: 7px;
+	padding-top: 0px;
+	margin-top: 0px;
+	float: left;
+	opacity:0.7;
+	margin-top:2px;
+	}
+
+#cxpmClientAccountWidget .widget-text span a .cap-icon-user-circle-o:before {
+    content: "";
+}
+
+
+#cxpmClientAccountWidget .widget-text, #cxpm-connect-sso-dropdown .widget-text {
+    padding-top: 0px;
 }
