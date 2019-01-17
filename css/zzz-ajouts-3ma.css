@@ -2164,6 +2164,7 @@ input[type=checkbox].ac-switcher {
 .mod-catal .catal-ex-item-cat {
     float: right;
     width: 22.5rem;
+	margin-right: -159px !important;
 }
 
 .mod-catal .catal-produit .catal-ex-item-cat,
