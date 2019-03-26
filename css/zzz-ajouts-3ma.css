@@ -21768,3 +21768,48 @@ h3{
     background-image: url(images/icon-twitter2.png);
     background-size: 100% 100%;
 }
+
+/*** NEWSLETTER UPDATE 26/03/2019****/
+
+.nf-main-content {
+    width: 50%;
+    min-width: 530px;
+    height: 50%;
+    margin: 0 auto;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    transform: translateY(50%);
+    background-color: #675443;
+}
+.newsletter-form .nf-form-submit button{
+background:#B49F8E !important;
+}
+
+.newsletter-form p.nf-form-input {
+    float: none;
+    width: auto;
+    vertical-align: middle;
+    color: #d5d5d5;
+}
+
+.newsletter-form .nf-form-input input {
+    width: 100% !important;
+}
+.newsletter-form .nf-form-input input[type="checkbox"] {
+    width: 50px !important;
+}
+
+.newsletter-form p{
+color:#ffffff;
+}
+.newsletter-form .nf-title{
+color:#ffffff;
+}
+.newsletter-form .nf-form-submit{
+    margin-top: -40px;
+}
+.newsletter-form .optin-container p.nf-form-input {
+    max-width: 320px;
+}
