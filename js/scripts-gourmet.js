@@ -152,7 +152,7 @@
 			.appendTo('body');
 		$form
 			.find('.nf-form-input input')
-			.attr('placeholder', 'Votre email');
+			.attr('placeholder', 'Email');
 		$form
 			.find('.nf-main-content')
 			.append('<a href="#" class="form-close"/>');
