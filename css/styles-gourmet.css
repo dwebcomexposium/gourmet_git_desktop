@@ -2287,3 +2287,7 @@ body.is-mac .quicklinks.links .ql-list { margin: -161px 0 0 343px; }
 
 
 #zone4 .quicklinks.links, .article-wrapper .at-theme, .article-wrapper .at-tag { display: none; }
+
+.list-articles.actus .la-item-content { opacity: 0 !important; visibility: hidden !important; transition: opacity 1s .5s, visibility 1s .5s !important; }
+.la-item.slider-item.active .la-item-content { opacity: 1 !important;  visibility: visible !important; transition: opacity 1s, visibility 1s !important; }
+.block.block-page.list-articles.actus + .block.block-small.quicklinks.links { background: none; }
