@@ -2032,11 +2032,11 @@ button.js-mySelection { position: relative; display: inline-block; height: 38px;
 \* ------------------------------------------------------------ */
 
 /*  Icons  */
-.icon-user-circle-o { display: inline-block; width: 16px; height: 16px; background-image: url(gfx/ico-profile@2x.png); background-size: 100%; }
-.icon-user-circle-o:before { display: none; }
+.cap-icon-user-circle-o { display: inline-block; width: 16px; height: 16px; background-image: url(gfx/ico-profile@2x.png); background-size: 100%; }
+.cap-icon-user-circle-o:before { display: none!important; }
 
-.icon-shopping_basket { display: inline-block; width: 15px; height: 19px; background-image: url(gfx/ico-bag@2x.png); background-size: 100%; }
-.icon-shopping_basket:before { display: none; }
+.cap-icon-shopping_basket { display: inline-block; width: 15px; height: 19px; background-image: url(gfx/ico-bag@2x.png); background-size: 100%; }
+.cap-icon-shopping_basket:before { display: none!important; }
 
 .icon-search { display: inline-block; width: 23px; height: 23px; background-image: url(gfx/ico-search@2x.png); background-size: 100%; }
 
@@ -2049,7 +2049,7 @@ button.js-mySelection { position: relative; display: inline-block; height: 38px;
 #cxpmClientAccountWidget .widget-text i, 
 #cxpm-connect-sso-dropdown .widget-text i { margin-right: 5px; margin-bottom: -2px; }
 
-#cxpmClientAccountWidget .icon-shopping_basket { vertical-align: middle; }
+#cxpmClientAccountWidget .cap-icon-shopping_basket { vertical-align: middle; }
 
 #cxpmClientAccountWidget .widget-text span a, 
 #cxpm-connect-sso-dropdown .widget-text span a { font-size: 11px !important; line-height: 1.2 !important; font-weight: 300; }
@@ -2281,9 +2281,6 @@ body.is-mac .quicklinks.links .ql-list { margin: -161px 0 0 343px; }
 
 .newsletter-form .form-close:hover:before,
 .newsletter-form .form-close:hover:after { background: #161615; }
-
-
-
 
 
 #zone4 .quicklinks.links { display: none; }
