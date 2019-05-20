@@ -2205,8 +2205,8 @@ button.js-mySelection { position: relative; display: inline-block; height: 38px;
 
 .block.block-small.quicklinks.links { opacity: 1 !important; top: 0 !important; background: #383432; }
 
-.partner.partner .slider-container .pg-item:nth-last-of-type(1),
-.partner.partner .slider-container .pg-item:nth-last-of-type(2) { -webkit-transform: translateX(250px); -ms-transform: translateX(250px); -o-transform: translateX(250px); transform: translateX(250px); }
+/*.partner.partner .slider-container .pg-item:nth-last-of-type(1),
+.partner.partner .slider-container .pg-item:nth-last-of-type(2) { -webkit-transform: translateX(250px); -ms-transform: translateX(250px); -o-transform: translateX(250px); transform: translateX(250px); }*/
 
 
 
