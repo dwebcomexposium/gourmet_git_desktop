@@ -50,3 +50,9 @@
 .logotheque-style:last-child table {
     margin-bottom: 30px;
 }
+
+/****** NEWSLETTER ********/
+
+.newsletter-form .optin-container, .newsletter-form label, .newsletter-form p:empty{
+display : block !important;	
+}
