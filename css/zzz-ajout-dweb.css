@@ -56,3 +56,11 @@
 .newsletter-form .optin-container, .newsletter-form label, .newsletter-form p:empty{
 display : block !important;	
 }
+
+
+/*** Catalogue ****/
+
+.mod-catal .catal-ex-item.is-premium .catal-ex-item-title a{
+	font-weight: bold !important;
+	color: #F4080C !important;
+}
