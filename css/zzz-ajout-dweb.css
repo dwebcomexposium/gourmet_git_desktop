@@ -71,3 +71,12 @@ display : block !important;
 .block.block-small.quicklinks.bt-cta li:first-child {
     margin-bottom: 8px;
 }
+
+
+.accordion .accordion-inner {
+    min-width: 326px;
+}
+
+.accordion .accordion-expanded {
+    width: 40%;
+}
