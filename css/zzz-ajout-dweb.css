@@ -80,4 +80,4 @@ display : block !important;
 .accordion .accordion-expanded {
     width: 40%;
 }
-.node1383312 #zone2 {width: 100%}
+.node1383312 #zone2 {width: 100%  !important}
