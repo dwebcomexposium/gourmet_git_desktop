@@ -1593,4 +1593,4 @@ header .cols { display: -webkit-box ; display: -ms-flexbox ; display: flex ; -ms
 .newsletter-form .nf-main-content form .nf-form-item .right-col .optin-container .nf-form-input label:after { content: '' ; display: block ; width: 11px ; height: 7px ; position: absolute ; left: 5px ; top: 7px ; background-image: url(images/check.svg) ; opacity: 0 ;}
 
 
-#zone1 .quicklinks.links .ql-list li:nth-child(3), .header .newsletter-form { display: none; }
+#zone1 .quicklinks.links .ql-list li:nth-child(3), .header .newsletter-form { display: none!important; }
