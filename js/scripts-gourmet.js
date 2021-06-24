@@ -448,11 +448,11 @@ function newsletterForm() {
 	$(".newsletter-form .right-child").wrapAll('<div class="right-col"></div>');
 	
 	$(".newsletter-form .right-col").children().not('.optin-container').wrapAll('<div class="form-field-box"></div>');
-	var text = $(".newsletter-form .optin-container .nf-form-input").text();
-	$(".newsletter-form .optin-container .nf-form-input input").wrap('<div class="checkbox-input"></div>');
-	
-	var html = $(".newsletter-form .optin-container .checkbox-input").html();
-	$(".newsletter-form .optin-container .nf-form-input").html(html+'<label>'+text+'</label>');
+//	var text = $(".newsletter-form .optin-container .nf-form-input").text();
+//	$(".newsletter-form .optin-container .nf-form-input input").wrap('<div class="checkbox-input"></div>');
+//	
+//	var html = $(".newsletter-form .optin-container .checkbox-input").html();
+//	$(".newsletter-form .optin-container .nf-form-input").html(html+'<label>'+text+'</label>');
 	$(".newsletter-form").fadeIn();
 }
 
@@ -617,5 +617,3 @@ function playVideo() {
 		jQuery('.pg-lightbox-content-inner').html(data);
 	});
 }
-
-
