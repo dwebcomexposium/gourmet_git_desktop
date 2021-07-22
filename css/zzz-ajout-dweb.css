@@ -81,3 +81,7 @@ display : block !important;
     width: 40%;
 }
 .node1383312 #zone2 {width: 100%  !important}
+
+.article-wrapper ul {
+    padding-top: 20px !important;
+}
