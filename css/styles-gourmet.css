@@ -598,7 +598,7 @@ to { top: 0;}}
 .article_list .block-page.list-articles .la-item { padding: 0; margin: 0; border: 0;}
 .article_list .block-page.list-articles .la-item:hover .link-read-more { padding: 0 19px;}
 .article_list .block-page.list-articles .la-item:hover .link-read-more:after { opacity: 1;}
-.article_list .block-page.list-articles .la-item:hover { cursor: pointer;}
+.article_list .block-page.list-articles .la-item:hover { /*cursor: pointer;*/}
 .article_list .block-page.list-articles .la-item:hover img { -webkit-transform: scale(1.1); -ms-transform: scale(1.1); transform: scale(1.1);}
 .article_list .block-page.list-articles .la-item + .la-item { margin-top: 60px;}
 .article_list .block-page.list-articles .list-grids-with-pagin { max-width: 980px; margin: 0 auto;}
