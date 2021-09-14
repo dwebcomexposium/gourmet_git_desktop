@@ -89,3 +89,7 @@ display : block !important;
 .content873301 .article-content .focus2 {
     text-align: center;
 }
+
+.header .header-entry {
+    font-size: 24px;
+}
