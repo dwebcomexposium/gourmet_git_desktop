@@ -1591,5 +1591,3 @@ header .cols { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-fl
 
 #zone1 .quicklinks.links .ql-list li:nth-child(3), .header .newsletter-form, .nf-loading { display: none;}
 .newsletter-form .nf-main-content form label[for=nf1] { display: none!important; }
-.nf-loading
-
