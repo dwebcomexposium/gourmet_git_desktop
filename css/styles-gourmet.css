@@ -70,7 +70,7 @@ body { min-width: 768px; font-family: 'Flama', sans-serif; background: none;}
   Global Wrapper
 \* ------------------------------------------------------------ */
 .global-wrapper { overflow: hidden;}
-.global-wrapper .section-link:last-child { margin-bottom: 132px;}
+.front .global-wrapper .section-link:last-child { margin-bottom: 132px;}
 .article .global-wrapper .section-link:last-child { margin-bottom: 35px;}
 
 /* ------------------------------------------------------------ *\
@@ -183,7 +183,7 @@ body { min-width: 768px; font-family: 'Flama', sans-serif; background: none;}
 .mn-menu-item-avecpicto .mn-link-text { display: none;}
 .main-navigation .mn-menu-submenu .mn-link:after { display: none;}
 .main-navigation .mn-item-lvl-1 { position: relative;}
-.main-navigation .mn-item-lvl-1 + .mn-item-lvl-1 { margin-left: 67px;}
+.main-navigation .mn-item-lvl-1 + .mn-item-lvl-1 { margin-left: 55px;}
 .main-navigation .mn-item-lvl-1:nth-child(3):before { background: #aabae2;}
 .main-navigation .mn-item-lvl-1:nth-child(4):before { background: #ee868a;}
 .main-navigation .mn-item-lvl-1:nth-child(5):before { background: #fbd104;}
@@ -191,7 +191,7 @@ body { min-width: 768px; font-family: 'Flama', sans-serif; background: none;}
 .main-navigation .mn-item-lvl-1:nth-child(7):before { background: #c9b8df;}
 .main-navigation .mn-item-lvl-1 + .mn-item-lvl-1:nth-child(2) { margin-left: 51px;}
 .main-navigation .mn-item-lvl-1 + .mn-item-lvl-1:nth-child(2):before { display: none;}
-.main-navigation .mn-item-lvl-1 + .mn-item-lvl-1:before { content: ''; position: absolute; width: 10px; height: 10px; top: 17px; left: -40px; border-radius: 50%;}
+.main-navigation .mn-item-lvl-1 + .mn-item-lvl-1:before { content: ''; position: absolute; width: 10px; height: 10px; top: 17px; left: -30px; border-radius: 50%;}
 .main-navigation .mn-item-lvl-1 > .mn-link { min-height: 0;}
 .main-navigation .mn-item-lvl-1:first-child { position: relative; top: -5px; left: -8px;}
 .main-navigation .mn-item-lvl-1:first-child > .mn-link { -webkit-transition: opacity .3s; -o-transition: opacity .3s; transition: opacity .3s;}
@@ -1054,7 +1054,8 @@ button.js-mySelection { position: relative; display: inline-block; height: 38px;
 .cap-icon-user-circle-o:before { display: none !important;}
 .cap-icon-shopping_basket { display: inline-block; width: 15px; height: 19px; background-image: url(images/ico-bag@2x.png); background-size: 100%;}
 .cap-icon-shopping_basket:before { display: none !important;}
-.icon-search { display: inline-block; width: 23px; height: 23px; background-image: url(images/ico-search@2x.png); background-size: 100%;}
+.icon-search { display: inline-block; width: 23px; height: 23px; background-image: url(images/ico-search@2x.png); background-size: 100%; margin-top: 1px;
+}
 .ico-facebook { width: 10px; height: 19px;}
 .ico-instagram { display: inline-block; vertical-align: middle; width: 20px; height: 20px; background-image: url(images/ico-instagram@2x.png); background-size: 100%;}
 .ico-linked-in { display: inline-block; vertical-align: middle; width: 18px; height: 18px; background-image: url(images/ico-linked-in@2x.png); background-size: 100%;}
@@ -1124,8 +1125,8 @@ button.js-mySelection { position: relative; display: inline-block; height: 38px;
 .main-navigation { padding: 30px 0;}
 .main-navigation .mn-menu-line { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; max-width: 100%; padding: 0 80px;}
 .main-navigation .mn-menu { padding-right: 254px; margin-left: -5px;}
-.main-navigation .mn-link { font-size: 22px; line-height: 1.2;}
-.main-navigation .mn-item-lvl-1 + .mn-item-lvl-1:before { top: 12px; width: 6px; height: 6px; background: #e3d3c3;}
+.main-navigation .mn-link { font-size: 20px; line-height: 1.2;}
+.main-navigation .mn-item-lvl-1 + .mn-item-lvl-1:before { top: 10px; width: 6px; height: 6px; background: #e3d3c3;}
 .main-navigation .mn-item-lvl-1 > .mn-link { padding: 0;}
 
 /*  Actus  */
@@ -1430,7 +1431,7 @@ header .cols { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-fl
 .header .header-entry { font-family: 'Flama'; font-style: normal; font-weight: 500; font-size: 25px; line-height: 30px; color: #FFFFFF; letter-spacing: 0;}
 .header .header-entry small { font-family: 'Flama'; font-style: normal; font-weight: 300; font-size: 17px; line-height: 20px; color: #FFFFFF; letter-spacing: 0;}
 .main-navigation .mn-menu-line { max-width: 1300px; margin: 0 auto; padding: 0 30px;}
-.main-navigation .mn-link { font-family: 'Flama'; font-style: normal; font-weight: 300; font-size: 20px !important; line-height: 26px; color: #1D1D1B;}
+.main-navigation .mn-link { font-family: 'Flama'; font-style: normal; font-weight: 300; font-size: 19px !important; line-height: 26px; color: #1D1D1B;}
 @media (max-width: 1100px) { .main-navigation .mn-link { font-size: 16px !important;}}
 
 @media (max-width: 992px) { .main-navigation .mn-link { font-size: 14px !important;}}
@@ -1451,7 +1452,7 @@ header .cols { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-fl
 
 @media (max-width: 1540px) { .site-banner .cxp-searchform form { right: 8px !important;}}
 
-.main-navigation .mn-item-lvl-1 + .mn-item-lvl-1:nth-child(2) { margin-left: 67px !important;}
+.main-navigation .mn-item-lvl-1 + .mn-item-lvl-1:nth-child(2) { margin-left: 40px !important;}
 @media (max-width: 910px) { .main-navigation .mn-item-lvl-1 + .mn-item-lvl-1:nth-child(2) { margin-left: 30px !important;}}
 
 .site-banner .cxp-searchform form { right: 0;}
@@ -1588,5 +1589,7 @@ header .cols { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-fl
 .newsletter-form .nf-main-content form .nf-form-item .right-col .optin-container .nf-form-input label { font-family: 'Flama'; font-style: normal; font-weight: normal; font-size: 13px; line-height: 19px; color: rgba(255, 255, 255, 0.7); margin: 0; position: relative; display: inline-block; padding-left: 10px; -webkit-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;}
 
 
-#zone1 .quicklinks.links .ql-list li:nth-child(3), .header .newsletter-form { display: none;}
+#zone1 .quicklinks.links .ql-list li:nth-child(3), .header .newsletter-form, .nf-loading { display: none;}
 .newsletter-form .nf-main-content form label[for=nf1] { display: none!important; }
+.nf-loading
+
