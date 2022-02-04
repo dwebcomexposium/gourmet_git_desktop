@@ -93,3 +93,8 @@ display : block !important;
 .header .header-entry {
     font-size: 24px;
 }
+
+
+.quicklinks.links .ql-list li:nth-child(1) .btn-primary:before {
+    background-image: none;
+}
