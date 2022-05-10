@@ -94,10 +94,6 @@ display : block !important;
     font-size: 24px;
 }
 
-
-.quicklinks.links .ql-list li:nth-child(1) .btn-primary:before {
-    background-image: none;
-}
 .icon-search {
     background-image: url(images/ico-search2.png);
 }
