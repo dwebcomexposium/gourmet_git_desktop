@@ -97,3 +97,10 @@ display : block !important;
 .icon-search {
     background-image: url(images/ico-search2.png);
 }
+.quicklinks.links .ql-list li:nth-child(1) .btn-primary:before {
+    background-image: url(images/ico-hand.png);
+    background-size: 22px 33px;
+}
+.quicklinks.links .ql-list li:nth-child(2) .btn-primary:before {
+    background-image: url(images/badge.svg);
+}
