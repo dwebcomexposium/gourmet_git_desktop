@@ -104,3 +104,7 @@ display : block !important;
 .quicklinks.links .ql-list li:nth-child(2) .btn-primary:before {
     background-image: url(images/badge.svg);
 }
+
+h5, .h5-like, h6, .h6-like {
+    clear: both;
+}
